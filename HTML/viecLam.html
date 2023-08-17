@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu việc làm</title>
+    <link rel="stylesheet" href="../CSS/app.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/viecLam.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="../JAVASCRIPT/addJson.js"></script>
+    <script src="../JAVASCRIPT/main.js"></script>
+</head>
+
+<body>
+    <nav class="flex">
+        <i class="fa-solid fa-bars"></i>
+        <div class="main-logo">
+            <a href=""><img src="/Exercise/Batman_logo_black.png" alt="logo" class="img"></a>
+        </div>
+        <div class="slide flex">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Tìm kiếm">
+                <ul class="suggestion-list"></ul>
+            </div>
+            <ul class="main-menu flex" id="main-menu">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="#page2">Nghiệp vụ</a></li>
+                <li><a href="#page3">Giới thiệu</a></li>
+            </ul>
+            <div class="user">
+                <button class="btn btn-regis">Đăng ký</button>
+                <button class="btn btn-login">Đăng nhập</button>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <br><br><br>
+        <h1>CÁC CÔNG VIỆC NGÀNH NGÀNH CÔNG NGHỆ THÔNG TIN</h1>
+        <div class="viecs">
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+        </div>
+
+    </section>
+
+    <div class="cover flex" id="apply">
+        <div class="wrapper-form">
+            <div class="apply-form">
+                <i class="fa-solid fa-arrow-left"></i>
+                <h1>HỒ SƠ XIN VIỆC</h1>
+                <span>Thông tin cá nhân:</span>
+                <div class="name flex">
+                    <input type="text" class="form-input" placeholder="Họ và tên đệm: ">
+                    <input type="text" class="form-input" placeholder="Tên: ">
+                </div>
+                
+                <input type="text" placeholder="Email hoặc số điện thoại: " class="form-input">
+                <input type="text" placeholder="Địa chỉ thường trú" class="form-input">
+                <form>
+                    
+                    <span>Ngày tháng năm sinh: </span>
+                    <input class="form-input" type="date" name="birthday">
+                </form>
+                <span>Giới tính: </span>
+               <div class="genders flex">
+                    <div class="gender flex">
+                        <span>Nam</span>
+                        <input type="radio" value="Nam" name="gioitinh">
+                    </div>
+                    <div class="gender flex">
+                        <span>Nữ</span>
+                        <input type="radio" value="Nu" name="gioitinh">
+                    </div>
+                    <div class="gender flex">
+                        <span>Khác</span>
+                        <input type="radio" value="Khac" name="gioitinh">
+                    </div>
+               </div>
+                
+                <span style="font-size: .8rem; color:#918787">Đọc kỹ các điều khoảng trước khi đăng ký.</span>
+                
+                <a href="#"><input type="submit" value="ỨNG TUYỂN" class="btn"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="f5 flex">
+            <div class="thongtin">
+                <h2>
+                    Công ty tìm kiếm việc làm CNTT
+                </h2>
+                <span>371 Nguyễn Kiệm, phường 3, Gò Vấp, Thành phố Hồ Chí Minh</span>
+                <span>Điện thoại: 0398 999 767</span>
+                <span>Email: findwork@gmail.com</span>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.925050907279!2d106.67453267481868!3d10.817047658443549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDM!5e0!3m2!1svi!2s!4v1691134535025!5m2!1svi!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-regis">
+                <h2>Đăng ký nhận thông tin</h2>
+                <span>Xin vui lòng để lại địa chỉ email, chúng tôi sẽ cập nhật những tin tức quan trọng của trang Web
+                    tới quý khách.</span>
+                <div class="type">
+                    <span>Họ tên: </span>
+                    <input type="text" placeholder="Nhập họ tên">
+                </div>
+
+                <div class="type">
+                    <span>Email: </span>
+                    <input type="text" name="" id="" placeholder="Nhập email">
+                </div>
+                <a href=""><input type="submit" value="Đăng ký" class="submit"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- FORM ĐĂNG KÝ -->
+    <div class="cover flex" id="cover-regis">
+        <div class="wrapper-form" id="form-regis">
+            <form action="">
+                <h2 class="form-heading">Đăng ký</h2>
+                <div class="form-group">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" class="form-input" placeholder="Tên đăng nhập">
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" class="form-input" placeholder="Mật khẩu">
+                    <i style="color: #b7b7b7;" class="fa-solid fa-eye eye"></i>
+
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" class="form-input" placeholder="Nhập lại mật khẩu">
+                    <i style="color: #b7b7b7;" class="fa-solid fa-eye eye"></i>
+
+                </div>
+                <a href="" value="Đăng nhập" class="form-submit">Đăng ký</a>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- FORM ĐĂNG NHẬP -->
+    <div class="cover flex" id="cover-login">
+        <div class="wrapper-form" id="form-login">
+            <form action="">
+                <h2 class="form-heading">Đăng nhập</h2>
+                <div class="form-group">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" class="form-input" placeholder="Tên đăng nhập">
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" class="form-input" placeholder="Mật khẩu">
+                    <i style="color: #b7b7b7;" class="fa-solid fa-eye eye"></i>
+                </div>
+                <a href="" value="Đăng nhập" class="form-submit">Đăng nhập</a>
+            </form>
+        </div>
+    </div>
+
+    <!-- BACK TOP -->
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+</body>
+
+</html>

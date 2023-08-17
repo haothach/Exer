@@ -1,0 +1,247 @@
+body {
+    background-color: #f3f5f7;
+}
+
+nav {
+    background-color: #dcdedf;
+}
+
+section {
+    width: 80%;
+    margin: 1rem auto 0;
+    background-color: #fff;
+}
+
+section > h1 {
+    padding: 1rem 2rem;
+}
+
+/* =====CAC CONG VIEC===== */
+
+.viec {
+    border: 2px solid #ffffff;
+    transition: all .3s ease;
+    border-radius: 3px;
+    background-color: #e0f7ea;
+}
+
+.viecs h1 {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.viecs h2 {
+    font-size: 1rem;
+    color: #333;
+}
+
+.viec + .viec {
+    margin-top: .5rem;
+}
+
+.viec:hover {
+    border: 2px solid rgb(30, 184, 48);
+    cursor: pointer;
+}
+
+.viec img {
+    width: 15%;
+    height: 140px;
+    padding: .5rem
+}
+
+.viec-detail {
+    width: 60%;
+    padding: .5rem;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+
+.lable {
+    font-size: .65rem;
+}
+
+label {
+    background-color: #ccc;
+    padding: 3px;
+}
+
+label + label {
+    margin-left: 1rem;
+}
+
+.luong {
+    width: 25%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: .5rem;
+    font-size: 1rem;
+    color: rgb(5, 174, 53);
+}
+
+.luong span {
+    display: block;
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+.luong {
+    position: relative;
+    overflow: hidden;
+}
+
+.see {
+    border: 1px solid rgb(5, 174, 53);
+    padding: .2rem .5rem !important;
+    position: absolute;
+    top: 3.5rem;
+    right: -100%;
+    transition: all .5s ease-in-out
+}
+
+.viec:hover .see {
+   right: 0.5rem;
+}
+
+.ungtuyen {
+    background-color: rgb(5, 174, 53);
+    color: #fff;
+}
+
+/* =====THONG TIN UNG TUYEN===== */
+
+#apply {
+    color: #333;
+}
+
+.apply-form > h1 {
+    text-align: center;
+}
+
+#apply i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+#apply i:hover {
+    cursor: pointer;
+}
+
+#apply span {
+    display: block;
+    padding: .5rem;
+}
+
+.apply-form {
+    max-width: 700px;
+    background-color: rgb(255, 241, 241);
+    padding: 2rem;
+    box-shadow: 2px 2px 10px 10px rgb(0, 0, 0);
+}
+
+.apply-form .name input[type=text] {
+    color: #000000;
+    max-width: 48%;
+}
+
+.name {
+    justify-content: space-between;
+}
+
+.apply-form > input[type=text] {
+    color: #000000;
+    min-width: 100%;
+    margin: .5rem 0;
+}
+
+.apply-form input::placeholder {
+    color: #8d94a4;
+}
+
+.apply-form input[type=date] {
+    color: #8d94a4;
+}
+
+.apply-form .form-input {
+    border: 1px solid #ccd0d5;
+    padding: 2px;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+#apply input {
+    display: block;
+}
+
+.genders {
+    justify-content: space-between;
+}
+
+.gender {
+    width: 32%;
+    padding: 0.1rem 0.3rem;
+    justify-content: space-between;
+    border: 1px solid #ccd0d5;
+    border-radius: .5rem;
+}
+
+.apply-form > a {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.apply-form a .btn {
+    border: 1px solid black;
+    color: black;
+    background-color: #fff;
+}
+
+.apply-form > a .btn:hover {
+    color: #fff;
+    background-color: rgb(92, 92, 246);
+}
+
+@media screen and (max-width: 700px) {
+
+    section {
+        width: 100%;
+        margin: 4rem 0 0 0;
+        text-align: justify;
+    }
+
+    .viec {
+        flex-direction: column;
+    }
+
+    .viec img {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .viec-detail {
+        width: 100%;
+    }
+
+    .viec-detail h2 {
+        margin: 1rem 0;
+    }
+
+    .luong {
+        width: 100%;
+        height: 8rem;
+        align-items: center;
+    }
+
+    .see {
+        top: 3rem;
+    }
+
+    .viec:hover .see {
+        right: 8.8rem;
+     }
+}
