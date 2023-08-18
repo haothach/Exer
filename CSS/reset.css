@@ -27,6 +27,8 @@ nav>div.main-logo {
 
 nav>div.main-logo>a {
     padding: 0;
+    display: inline-flex;
+    align-items: center;
 }
 
 nav>.slide a {
