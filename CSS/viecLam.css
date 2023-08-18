@@ -206,6 +206,15 @@ label + label {
     background-color: rgb(92, 92, 246);
 }
 
+#page3 {
+    background-color: #e0f7ea;
+    color: #000000;
+}
+
+.about div {
+    color: #333;
+}
+
 @media screen and (max-width: 700px) {
 
     section {
