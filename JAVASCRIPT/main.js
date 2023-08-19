@@ -20,7 +20,6 @@ $(document).ready(function () {
             suggestionList.slideUp();
         }
     });
-}
 
     suggestionList.on("click", "li", function () {
         if ($(window).width() <= 700) {
