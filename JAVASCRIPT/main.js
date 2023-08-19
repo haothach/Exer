@@ -20,10 +20,6 @@ $(document).ready(function () {
             suggestionList.slideUp();
         }
     });
-<<<<<<< HEAD
-=======
-
->>>>>>> 14a9de022c19e74bca6f323b77fa27bbdd2e0a17
 
     suggestionList.on("click", "li", function () {
         if ($(window).width() <= 700) {
