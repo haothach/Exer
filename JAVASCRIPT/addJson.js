@@ -21,42 +21,10 @@ function addJobContent() {
         })
 }
 
-// function vieclam() {
-//     fetch("../data/vieclam.json")
-//         .then(res => res.json())
-//         .then(data => {
-//             let d = document.getElementById("viecs");
-//             let re = "";
-//             for (let c of data) {
-//                 re += `  
-                
-//                     <img src="../logo-anh/${c.img}" alt="" class="img">
-//                     <div class="viec-detail flex">
-//                         <div class="h">
-//                             <h1>${c.h1}</h1>
-//                             <h2>${c.h2}</h2>
-//                         </div>
-//                        <div class="lable">
-//                             <label title="${c.title}">${c.lable1}</label>
-//                             <label>${c.lable2}</label>
-//                        </div>
-//                     </div>
-//                     <div class="luong flex">
-//                         <span>${c.salary}</span>
-//                         <span class="see">Xem nhanh <<</span>
-//                         <span class="ungtuyen">Ứng tuyển</span>
-//                     </div>
-                
-//             `;
-//             }
-
-//             d.innerHTML += re;
-//         })
-// }
 
 function vieclam() {
     fetch("../data/vieclam.json")
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
         let d = document.querySelectorAll(".viecs .viec");        
         data.forEach((c, i) => {
