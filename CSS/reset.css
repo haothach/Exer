@@ -315,6 +315,30 @@ footer div > a {
 }
 
 
+@media screen and (max-width: 900px) and (min-width: 750px) {
+    
+    .main-logo > a > span {
+        display: none;
+    }
+    
+    .citys {
+        padding: 1rem;
+    }
+    .wrapper > h1 {
+        padding: 1rem 0 0 0;
+    }
+
+    .demo {
+        padding: 0;
+    }
+
+    .jobs {
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
+}
+
+
 @media screen and (max-width: 700px) {
     /* ======NAV===== */
 
