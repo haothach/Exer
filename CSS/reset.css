@@ -236,7 +236,7 @@ section#page1 {
 footer {
     color: #fff;
     margin-top: 1rem;
-    background-image: url(https://hdqwalls.com/download/nature-background-2560x1440.jpg);
+    background-image: url(https://images.hdqwalls.com/download/sunset-serenity-embracing-the-beauty-of-a-calm-cc-2560x1440.jpg);
     background-size: cover;
     background-position: 50%;
 }
@@ -263,6 +263,12 @@ iframe {
 footer span {
     display: block;
     font-size: 14px;
+}
+
+footer div > a {
+    color: #fff;
+    display: inline-block;
+    padding-top: 2rem;
 }
 
 .footer-regis span {
