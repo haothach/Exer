@@ -317,6 +317,7 @@ footer div > a {
 
 @media screen and (max-width: 900px) and (min-width: 750px) {
     
+    
     .main-logo > a > span {
         display: none;
     }
@@ -335,6 +336,10 @@ footer div > a {
     .jobs {
         padding-left: 1rem;
         padding-right: 2rem;
+    }
+
+    .footer-regis > a> input{
+        bottom: 5px;
     }
 }
 
