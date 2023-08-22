@@ -1,8 +1,8 @@
 [
     {
-        "img": "anh1.jpg",
-        "h1": "Senior Back End Developer(Java - Spring Boot)",
-        "h2": "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ DỊCH VỤ ĐIỀN QUÂN",
+        "img": "anh8.jpg", 
+        "h1": "Web Designer - ADC Việt Nam ",
+        "h2": "CÔNG TY TNHH ADC VIỆT NAM",
         "lable1": "Hà Nội",
         "lable2": "Còn 15 ngày để ứng tuyển",
         "title": "Hà Nội - Đống Đa",
@@ -10,9 +10,9 @@
 
     },
     {
-        "img": "anh2.jpg",
-        "h1": "UX/UI Designer",
-        "h2": "CÔNG TY CỔ PHẦN NCCPLUS NGỌC TUẤN",
+        "img": "anh9.jpg",
+        "h1": "Web Developer - Front End - Zalora Việt Nam",
+        "h2": "CÔNG TY TNHH CÔNG NGHỆ VÀ DỊCH VỤ ZALORA VIỆT NAM",
         "lable1": "Đà Nẵng",
         "lable2": "Còn 15 ngày để ứng tuyển",
         "title": "Bắc Ninh - Quận Cẩm Lệ",
@@ -20,9 +20,9 @@
 
     },
     {
-        "img": "anh3.jpg",
-        "h1": "DevOps Engineer - Enterprise Platform",
-        "h2": "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ DỊCH VŨ QUANG",
+        "img": "anh10.jpg",
+        "h1": "Web Developer - Back End - Foody",
+        "h2": "CÔNG TY TNHH CÔNG NGHỆ VÀ DỊCH VỤ FOODY",
         "lable1": "Tp Hồ Chí Minh",
         "lable2": "Còn 14 ngày để ứng tuyển",
         "title": "Tp Hồ Chí Minh - Quận 3",
@@ -30,9 +30,9 @@
 
     },
     {
-        "img": "anh4.jpg",
-        "h1": "PHP Developer",
-        "h2": "CÔNG TY PHÚC QUANG",
+        "img": "anh11.jpg",
+        "h1": "Web Designer - TQ Design",
+        "h2": "CÔNG TY TNHH TQ DESIGN",
         "lable1": "Vĩnh Long",
         "lable2": "Còn 13 ngày để ứng tuyển",
         "title": "Vĩnh Long - Tp Vĩnh Long",
@@ -40,9 +40,9 @@
 
     },
     {
-        "img": "ANH5.jpg",
-        "h1": "Middle QA (Tester)",
-        "h2": "VAREAL VIỆT NAM",
+        "img": "anh12.png",
+        "h1": "Web Developer - Full Stack - Magenest",
+        "h2": "CÔNG TY TNHH MAGENEST",
         "lable1": "Hà Nội",
         "lable2": "Còn 13 ngày để ứng tuyển",
         "title": "Hà Nội - Cầu Giấy",
@@ -50,9 +50,9 @@
 
     },
     {
-        "img": "anh6.jpg",
-        "h1": "Software Developer (PHP)",
-        "h2": "CÔNG TY CỔ PHẦN FLAME",
+        "img": "anh13.png",
+        "h1": "Web Designer - Bizfly",
+        "h2": "CÔNG TY CỔ PHẦN BIZFLY",
         "lable1": "Tp Hồ Chí Minh",
         "lable2": "Còn 13 ngày để ứng tuyển",
         "title": "Tp Hồ Chí Minh - Quận 7",
@@ -60,9 +60,9 @@
 
     },
     {
-        "img": "anh7.jpg",
-        "h1": "Junior Backend Developer",
-        "h2": "TNHL SOFTWARE",
+        "img": "anh14.jpg",
+        "h1": "Web Developer - WordPress - Vinalink Website",
+        "h2": "CÔNG TY CỔ PHẦN VINALINK",
         "lable1": "Cần Thơ",
         "lable2": "Còn 13 ngày để ứng tuyển",
         "title": "Cần Thơ - Tp Cần Thơ",

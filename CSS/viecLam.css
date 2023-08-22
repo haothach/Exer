@@ -23,6 +23,7 @@ section > h1 {
     transition: all .3s ease;
     border-radius: 3px;
     background-color: #e0f7ea;
+    text-transform: uppercase;
 }
 
 .viecs h1 {

@@ -8,18 +8,23 @@
     <link rel="shortcut icon" href="../LogoOUFinder.png">
     <link rel="stylesheet" href="../CSS/app.css">
     <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/viecLam.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script src="../JAVASCRIPT/addJson.js"></script>
     <script src="../JAVASCRIPT/main.js"></script>
 </head>
+
+
 <body>
     <nav class="flex">
         <i class="fa-solid fa-bars"></i>
         <div class="main-logo">
-            <a href="#"><img src="../LogoOUFinder.png" alt="logo" class="img"><span>OUFinder</span></a>
+            <a href="index.html"><img src="../LogoOUFinder.png" alt="logo" class="img"><span>OUFinder</span></a>
         </div>
         <div class="slide flex">
             <div class="search-box">
@@ -27,8 +32,8 @@
                 <ul class="suggestion-list"></ul>
             </div>
             <ul class="main-menu flex" id="main-menu">
-                <li><a href="">Trang chủ</a></li>
-                <li><a href="#page2">Nghiệp vụ</a></li>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="#congviec">Tuyển việc</a></li>
                 <li><a href="#page3">Giới thiệu</a></li>
             </ul>
             <div class="user">
@@ -37,73 +42,21 @@
             </div>
         </div>
     </nav>
-    <section id="page1">
-        <div class="wrapper flex">
-            <div class="demo flex">
-                <div class="jobs">
-                    <div class="job">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <span>Data Analyst</span>
-                    </div>
-                    <div class="job">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <span>Programmer</span>
-                    </div>
-                    <div class="job">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <span>Software engineer</span>
-                    </div>
-                    <div class="job">
-                        <i class="fa-solid fa-pen-to-square"></i>
-                        <span>Editor</span>
-                    </div>
-                </div>
-                <div class="content flex">
-                    <h1>Tìm Việc Freelancer</h1>
-                    <h2>THU NHẬP DỰA TRÊN NĂNG LỰC CỦA BẠN</h2>
-                    <div class="rates flex">
-                        <div class="rate">
-                            <h2>23.120+</h2>
-                            <h3>Dự án hoàn thành</h3>
-                        </div>
-                        <div class="rate">
-                            <h2>5600+</h2>
-                            <h3>Lượt đăng ký</h3>
-                        </div>
-                        <div class="rate">
-                            <h2>4.7/5</h2>
-                            <h3>Avg Rating</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h1>HỢP TÁC VỚI CÁC CÔNG TY</h1>
-            <div class="citys flex">
-                <div class="city">
-                    <img src="../cty1.png" alt="" class="img">
-                </div>
-                <div class="city">
-                    <img src="../cty2.jpg" alt="" class="img">
-                </div>
-                <div class="city">
-                    <img src="../cty3.jpg" alt="" class="img">
-                </div>
-                <div class="city">
-                    <img src="../cty4.jpg" alt="" class="img">
-                </div>
 
-            </div>
+    <section id="congviec">
+        <br><br><br>
+        <h1>CÁC CÔNG VIỆC VỀ PHẦN MỀM</h1>
+        <div class="viecs" id="software">
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
+            <div class="viec flex"></div>
         </div>
+
     </section>
-
-
-    <section id="page2">
-        <div class="column">
-            <div class="vieclam flex" id="vieclam">
-            </div>
-        </div>
-    </section>
-
 
     <section id="page3">
         <div class="about">
@@ -126,6 +79,47 @@
         </div>
     </section>
 
+    <div class="cover flex" id="apply">
+        <div class="wrapper-form">
+            <div class="apply-form">
+                <i class="fa-solid fa-arrow-left"></i>
+                <h1>HỒ SƠ XIN VIỆC</h1>
+                <span>Thông tin cá nhân:</span>
+                <div class="name flex">
+                    <input type="text" class="form-input" placeholder="Họ và tên đệm: ">
+                    <input type="text" class="form-input" placeholder="Tên: ">
+                </div>
+                
+                <input type="text" placeholder="Email hoặc số điện thoại: " class="form-input">
+                <input type="text" placeholder="Địa chỉ thường trú" class="form-input">
+                <form>
+                    
+                    <span>Ngày tháng năm sinh: </span>
+                    <input class="form-input" type="date" name="birthday">
+                </form>
+                <span>Giới tính: </span>
+               <div class="genders flex">
+                    <div class="gender flex">
+                        <span>Nam</span>
+                        <input type="radio" value="Nam" name="gioitinh">
+                    </div>
+                    <div class="gender flex">
+                        <span>Nữ</span>
+                        <input type="radio" value="Nu" name="gioitinh">
+                    </div>
+                    <div class="gender flex">
+                        <span>Khác</span>
+                        <input type="radio" value="Khac" name="gioitinh">
+                    </div>
+               </div>
+                
+                <span style="font-size: .8rem; color:#918787">Đọc kỹ các điều khoảng trước khi đăng ký.</span>
+                
+                <a href="#"><input type="submit" value="ỨNG TUYỂN" class="btn"></a>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div class="f5 flex">
             <div class="thongtin">
@@ -137,21 +131,25 @@
                 <span>Email: findwork@gmail.com</span>
             </div>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.925050907279!2d106.67453267481868!3d10.817047658443549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDM!5e0!3m2!1svi!2s!4v1691134535025!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.925050907279!2d106.67453267481868!3d10.817047658443549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e1f241211f%3A0xc9ef195798144b1f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBN4bufIFRQLkhDTSAtIEPGoSBz4bufIDM!5e0!3m2!1svi!2s!4v1691134535025!5m2!1svi!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="footer-regis">
                 <h2>Đăng ký nhận thông tin</h2>
-                <span>Xin vui lòng để lại địa chỉ email, chúng tôi sẽ cập nhật những tin tức quan trọng của trang Web tới quý khách.</span>
+                <span>Xin vui lòng để lại địa chỉ email, chúng tôi sẽ cập nhật những tin tức quan trọng của trang Web
+                    tới quý khách.</span>
                 <div class="type">
                     <span>Họ tên: </span>
-                   <input type="text" placeholder="Nhập họ tên">
+                    <input type="text" placeholder="Nhập họ tên">
                 </div>
-               
-               <div class="type">
-                <span>Email: </span>
-                <input type="text" name="" id="" placeholder="Nhập email">
-               </div>
-               <a href=""><input type="submit" value="Đăng ký" class="submit"></a>
+
+                <div class="type">
+                    <span>Email: </span>
+                    <input type="text" name="" id="" placeholder="Nhập email">
+                </div>
+                <a href=""><input type="submit" value="Đăng ký" class="submit"></a>
             </div>
         </div>
     </footer>

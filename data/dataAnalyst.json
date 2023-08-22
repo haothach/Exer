@@ -1,0 +1,72 @@
+[
+    {
+        "img": "anh1.jpg", 
+        "h1": "Data Engineer - Big Data ",
+        "h2": "CÔNG TY CỔ PHẦN CÔNG NGHỆ VÀ GIẢI PHÁP TIKI",
+        "lable1": "Hà Nội",
+        "lable2": "Còn 15 ngày để ứng tuyển",
+        "title": "Hà Nội - Đống Đa",
+        "salary": "25-40 triệu/ tháng"
+
+    },
+    {
+        "img": "anh2.jpg",
+        "h1": "Data Scientist - Machine Learning ",
+        "h2": "CÔNG TY CỔ PHẦN NCCPLUS NGỌC TUẤN",
+        "lable1": "Đà Nẵng",
+        "lable2": "Còn 15 ngày để ứng tuyển",
+        "title": "Bắc Ninh - Quận Cẩm Lệ",
+        "salary": "25-30 triệu/ tháng"
+
+    },
+    {
+        "img": "anh3.jpg",
+        "h1": "Data Visualization Specialist ",
+        "h2": "CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ DỊCH VŨ QUANG",
+        "lable1": "Tp Hồ Chí Minh",
+        "lable2": "Còn 14 ngày để ứng tuyển",
+        "title": "Tp Hồ Chí Minh - Quận 3",
+        "salary": "25-40 triệu/ tháng"
+
+    },
+    {
+        "img": "anh4.jpg",
+        "h1": "Data Quality Analyst ",
+        "h2": "CÔNG TY TNHH CÔNG NGHỆ VÀ DỊCH VỤ LAZADA VIỆT NAM",
+        "lable1": "Vĩnh Long",
+        "lable2": "Còn 13 ngày để ứng tuyển",
+        "title": "Vĩnh Long - Tp Vĩnh Long",
+        "salary": "25-40 triệu/ tháng"
+
+    },
+    {
+        "img": "ANH5.jpg",
+        "h1": "Data Governance Manager ",
+        "h2": "VAREAL VIỆT NAM",
+        "lable1": "Hà Nội",
+        "lable2": "Còn 13 ngày để ứng tuyển",
+        "title": "Hà Nội - Cầu Giấy",
+        "salary": "25-30 triệu/ tháng"
+
+    },
+    {
+        "img": "anh6.jpg",
+        "h1": "Data Product Manager ",
+        "h2": "CÔNG TY CỔ PHẦN FLAME",
+        "lable1": "Tp Hồ Chí Minh",
+        "lable2": "Còn 13 ngày để ứng tuyển",
+        "title": "Tp Hồ Chí Minh - Quận 7",
+        "salary": "25-40 triệu/ tháng"
+
+    },
+    {
+        "img": "anh7.jpg",
+        "h1": "Data Analyst - Business Intelligence ",
+        "h2": "TNHL SOFTWARE",
+        "lable1": "Cần Thơ",
+        "lable2": "Còn 13 ngày để ứng tuyển",
+        "title": "Cần Thơ - Tp Cần Thơ",
+        "salary": "25-30 triệu/ tháng"
+
+    }
+]
