@@ -258,4 +258,8 @@ label + label {
      .apply-form {
         width: 100%;
      }
+
+     .apply-form > i {
+        left: 1.5rem !important;
+     }
 }
